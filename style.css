@@ -12,19 +12,28 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+h2 {
+    position: absolute;
+    top: 150px;
+    color: beige;
+    font-size: 40px;
+    text-shadow: 5px 5px 10px black;
 }
 
 .clock {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     background-color: #8B888D;
     border-radius: 50%;
-    box-shadow: -8px 8px 25px black;
+    box-shadow: -5px 5px 25px black;
     position: relative;
 }
 
 p {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 300;
     color: #f8e075;
     text-shadow: 2px 2px 5px black;
@@ -60,46 +69,46 @@ p {
 
 .hour {
     width: 5px;
-    height: 150px;
+    height: 135px;
     background-color: #fffbd5;
     box-shadow: 2px 2px 8px black;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform-origin: 50% 80%;
-    transform: translate(-50%, -80%) rotate(45deg);
+    transform-origin: 50% 77%;
+    transform: translate(-50%, -77%) rotate(45deg);
 }
 
 .mint {
     width: 5px;
-    height: 200px;
+    height: 175px;
     background-color: #fffbd5;
     box-shadow: -2px 2px 8px black;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform-origin: 50% 170px;
-    transform: translate(-50%, -170px) rotate(0deg);
+    transform-origin: 50% 82%;
+    transform: translate(-50%, -82%) rotate(0deg);
 }
 
 .scnd {
     width: 2px;
-    height: 200px;
+    height: 175px;
     background-color: #fffbd5;
     box-shadow: -2px 2px 8px black;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform-origin: 50% 170px;
-    transform: translate(-50%, -170px) rotate(0deg);
+    transform-origin: 50% 82%;
+    transform: translate(-50%, -82%) rotate(45deg);
 }
 
 .point {
-    width: 8px;
-    height: 8px;
+    width: 5px;
+    height: 5px;
     background-color: rgb(255, 183, 0);
     border-radius: 50%;
-    box-shadow: 0px 0px 8px black;
+    box-shadow: 0px 0px 5px black;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -107,7 +116,7 @@ p {
 }
 
 h5 {
-    font-size: 12px;
+    font-size: 10px;
     color: #ddd;
     font-weight: 500;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

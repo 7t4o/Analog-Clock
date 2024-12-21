@@ -8,9 +8,9 @@ function updateClock() {
     const mints = now.getMinutes()
     const scnds = now.getSeconds()
     
-    hour.style.transform = `translate(-50%, -80%) rotate(${30*hours}deg)`;
-    mint.style.transform = `translate(-50%, -170px) rotate(${6*mints}deg)`;
-    scnd.style.transform = `translate(-50%, -170px) rotate(${6*scnds}deg)`;
+    hour.style.transform = `translate(-50%, -77%) rotate(${30*hours}deg)`;
+    mint.style.transform = `translate(-50%, -82%) rotate(${6*mints}deg)`;
+    scnd.style.transform = `translate(-50%, -82%) rotate(${6*scnds}deg)`;
 }
 
 setInterval(updateClock, 1000);

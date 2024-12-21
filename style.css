@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", serif;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #35322e, #d5d3ca);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clock {
+    width: 400px;
+    height: 400px;
+    background-color: #8B888D;
+    border-radius: 50%;
+    box-shadow: -8px 8px 25px black;
+    position: relative;
+}
+
+p {
+    font-size: 50px;
+    font-weight: 300;
+    color: #f8e075;
+    text-shadow: 2px 2px 5px black;
+}
+
+.h12 {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -0%);
+}
+
+.h3 {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+.h6 {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -0%);
+}
+
+.h9 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+}
+
+.hour {
+    width: 5px;
+    height: 150px;
+    background-color: #fffbd5;
+    box-shadow: 2px 2px 8px black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: 50% 80%;
+    transform: translate(-50%, -80%) rotate(45deg);
+}
+
+.mint {
+    width: 5px;
+    height: 200px;
+    background-color: #fffbd5;
+    box-shadow: -2px 2px 8px black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: 50% 170px;
+    transform: translate(-50%, -170px) rotate(0deg);
+}
+
+.scnd {
+    width: 2px;
+    height: 200px;
+    background-color: #fffbd5;
+    box-shadow: -2px 2px 8px black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform-origin: 50% 170px;
+    transform: translate(-50%, -170px) rotate(0deg);
+}
+
+.point {
+    width: 8px;
+    height: 8px;
+    background-color: rgb(255, 183, 0);
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h5 {
+    font-size: 12px;
+    color: #ddd;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+}
